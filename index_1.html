@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page 1</title>
+  <link rel="stylesheet" href="index_1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="first">
+    <div>
+      <h2>Step 1 / 3</h2>
+      <h4>Tell us who you are:</h4>
+    </div>
+    <i class='fa fa-user'></i>
+  </div>
+  <div id="second">
+    <form>
+      <input id="fname" type="text" required="true" placeholder="First name...">
+      <input id="lname" type="text" required="true" placeholder="Last name...">
+
+      <select id="countries">
+        <option>Choose your country</option>
+        <option>Armenia</option>
+        <option>USA</option>
+        <option>Russia</option>
+        <option>Iran</option>
+        <option>France</option>
+      </select>
+
+      <input id="city" type="text" required="true" placeholder="City...">
+      <input id="addr" type="text" required="true" placeholder="Address...">
+      <input id="post" type="text" required="true" placeholder="Postal code...">
+      <label id="checkbox">
+        <input type="checkbox">
+        <b>Use filled data for shipping</b>
+      </label>
+    
+      <select id="sh_countries">
+        <option>Choose shipping country</option>
+        <option>Armenia</option>
+        <option>USA</option>
+        <option>Russia</option>
+        <option>Iran</option>
+        <option>France</option>
+      </select>
+
+      <input id="sh_city" type="text" required="true" placeholder="Shipping city...">
+      <input id="sh_addr" type="text" required="true" placeholder="Shipping address...">
+      <input id="sh_post" type="text" required="true" placeholder="Shipping postal code...">
+      <input type="submit" class="button" id="next" value="Next">
+    </form>
+  </div>
+  
+  <script src="index_1.js"></script>
+  
+</body>
+</html>
